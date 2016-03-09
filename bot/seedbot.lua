@@ -218,6 +218,20 @@ function create_config( )
     "owners",
     "arabic_lock",
     "set",
+    "wiki",
+    "boobs",
+    "google",
+    "calc",
+    "cpu",
+    "echo",
+    "gps",
+    "info",
+    "slm",
+    "text",
+    "time",
+    "verison",
+    "webshot",
+    "chatbot",
     "get",
     "broadcast",
     "invite",
@@ -228,29 +242,13 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {87160007,41471906,172178919},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
-An advanced administration bot based on TG-CLI written in Lua
+    about_text = [[SuperBot v 5.2 - 
+    Developer
+@shayan123hacker
 
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@Empero [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+Special Bot
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -336,6 +334,8 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
+    SuperBot verison 5.2
+    Developer @shayan123hacker
 Commands list :
 
 !kick [username|id]
